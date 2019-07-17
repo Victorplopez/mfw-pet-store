@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -18,7 +19,7 @@
 				<h1 class="pull-left text-center">Pet Store</h1>
 			</div>
 			<nav class="col-xs-12 col-sm-7 col-md-6">
-				<ul class="nav nav-pills pull-right">
+				<ul class="nav nav-pills pull-right headerPills">
 					<li role="presentation" class="active">
 						<a href="#">Home</a>
 					</li>
@@ -47,39 +48,39 @@
 		<div class="row">
 			<div class="col-sm-7 text-justify featured">
 				<h2 class="text-uppercase">Featured</h2>
-				<p>lorem</p>
+				<p>Welcome to our amazing 3 item store!</p>
 				<div class="row">
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 productGroup">
 						<div class="row">
-							<div class="col-sm-12 col-xs-6 imgBox">
-								<img src="img/product1.jpg" alt="" class="img-responsive">
-								<div class="col-sm-12 col-xs-6">
+							<div class="col-sm-11 col-xs-6 imgBox">
+								<img src="img/product1.jpg" alt="" class="img-responsive productImg">
+								<div class="col-sm-12 col-xs-6 product">
 									<h4>Dog Bowl</h4>
-									<p>Lorem ipsum dolor sit amet.</p>
+									<p>Purchase this wonderful looking dog bowl</p>
 									<button class="btn btn-xs center-block">Purchase Now</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 productGroup">
 						<div class="row">
-							<div class="col-sm-12 col-xs-6 imgBox">
-								<img src="img/product2.jpg" alt="" class="img-responsive">
+							<div class="col-sm-11 col-xs-6 imgBox">
+								<img src="img/product2.jpg" alt="" class="img-responsive productImg">
 								<div class="col-sm-12 col-xs-6">
 									<h4>Cat Toy</h4>
-									<p>What if i type random stuff until it will fill the entire page Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eaque!</p>
+									<p>Purchase this wonderful looking cat toy</p>
 									<button class="btn btn-xs center-block">Purchase Now</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 productGroup">
 						<div class="row">
-							<div class="col-sm-12 col-xs-6 imgBox">
-								<img src="img/product3.jpg" alt="" class="img-responsive">
+							<div class="col-sm-11 col-xs-6 imgBox">
+								<img src="img/product3.jpg" alt="" class="img-responsive productImg">
 								<div class="col-sm-12 col-xs-6">
 									<h4>Bird Toy</h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate.</p>
+									<p>Purchase this wonderful looking bird toy</p>
 									<button class="btn btn-xs center-block">Purchase Now</button>
 								</div>
 							</div>
@@ -91,16 +92,16 @@
 				<h2 class="text-center text-uppercase">Services</h2>
 				<ul class="nav nav-pills nav-stacked text-center">
 					<li role="presentation">
-						<a href="" class="text-uppercase">Adopt a</a>
-						<p>lorem</p>
+						<a href="" class="text-uppercase adoptPill">Adopt a Cat</a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, beatae!</p>
 					</li>
 					<li role="presentation">
-						<a href="" class="text-uppercase">Adopt a</a>
-						<p>lorem</p>
+						<a href="" class="text-uppercase adoptPill">Adopt a Dog</a>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, recusandae?</p>
 					</li>
 					<li role="presentation">
-						<a href="" class="text-uppercase">Adopt a</a>
-						<p>lorem</p>
+						<a href="" class="text-uppercase adoptPill">Adopt a Fish</a>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, architecto?</p>
 					</li>
 				</ul>
 			</aside>
@@ -109,6 +110,26 @@
 	<!-- End of Main Section-->
 
 	<!-- Footer -->
+	<div class="footer">
+		<div class="container-fluid footerContainer">
+			<div class="row">
+				<div class="col-sm-4 footerInfo">
+					<img src="img/petstore_logo.png" alt="logo" class="pull-left logo">
+				</div>
+				<div class="col-sm-4 footerInfo">
+					<p>Pet Store</p>
+					<p>Fresno, CA</p>
+					<p>info@petstore.com</p>
+				</div>
+				<div class="col-sm-4 footerInfo">
+					<i class="fab fa-facebook-square"> Facebook</i>
+					<i class="fab fa-twitter-square"> Twitter</i>
+					<i class="fab fa-linkedin"> LinkedIn</i>
+				</div>
+			</div>
+			<p class="rightsReserved">@Pet Store, Inc. All rights reserved.</p>
+		</div>
+	</div>
 	<!-- End of Footer -->
 
 	<!-- scripts -->

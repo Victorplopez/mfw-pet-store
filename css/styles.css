@@ -9,11 +9,47 @@ header h1 {
     margin-top: 20px;
 }
 
+.headerPills {
+    margin-top: 15px;
+}
+.headerPills > li {
+    outline: solid;
+    outline-width: 2px;
+    margin-right: 5px;
+}
+
 .nav-pills > li.active > a {
     color: #5c433f;
     background-color: #eeddcd;
 }
 
+/* Product section */
+.productGroup {
+    margin-bottom: 50px;
+}
+
+.productImg {
+    margin-top: 15px;
+}
+
+.imgBox {
+    margin-right: 5px;
+    background-color: #eeddcd;
+}
+
+.adoptPill {
+    background-color: #eeddcd;
+    outline: solid;
+    outline-color: #000000;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #fff;
+    outline: solid;
+    outline-width: 2px;
+    margin-bottom: 10px;
+}
 /* Jumbotron section */
 .jumbotron{
     background-image: url("../img/hero.jpg");
@@ -26,4 +62,25 @@ header h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #fff; 
+}
+
+/* Footer section */
+.footerContainer {
+    background-color: #eeddcd;
+}
+
+.footerInfo{
+    margin-top: 25px;
+    left: solid;
+    box-shadow: -1px 0px 0px 0px black
+}
+
+.rightsReserved {
+    margin-top: 5px;
+    padding-left: 60%;
+}
+
+.fab{
+    display: block;
+    margin: 15px;
 }
