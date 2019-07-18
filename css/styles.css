@@ -3,9 +3,6 @@
     width: 90px;
 }
 
-.text-justify {
-    word-break: break-all;
-}
 
 header h1 {
     color: #c9c983;
@@ -13,79 +10,111 @@ header h1 {
     margin-top: 20px;
 }
 
-.headerPills {
-    margin-top: 15px;
-}
+
 .headerPills > li {
     outline: solid;
     outline-width: 2px;
     margin-right: 5px;
 }
 
-.nav-pills > li.active > a {
+.nav-pills > li.active> a:hover,
+.product button:hover,
+footer a:hover{
+    background-color: #edf1f4;
     color: #5c433f;
+}
+
+nav li {
+    font-size: 15px;
+}
+
+li a{
+    color: #5c433f;
+    border: 1px solid;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+nav {
+    top: 20px;
+}
+
+
+.featured {
+    margin-bottom:60px;
+}
+
+.product {
     background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252, 252);
 }
 
-/* Product section */
-.productGroup {
-    margin-bottom: 50px;
+.img_box {
+    margin: 10px 0px;
 }
 
-.productImg {
-    margin-top: 15px;
-}
-
-.imgBox {
-    margin-right: 5px;
-    background-color: #eeddcd;
-}
-
-.adoptPill {
-    background-color: #eeddcd;
-    outline: solid;
-    outline-width: 3px;
-    outline-color: #000000;
+.product button {
     margin-bottom: 10px;
+    background-color: rgb(252,252,252,252);
+    border: 1px solid #5c433f;
 }
 
-.btn {
-    background-color: #fff;
-    outline: solid;
-    outline-width: 2px;
-    margin-bottom: 10px;
-}
-/* Jumbotron section */
-.jumbotron{
-    background-image: url("../img/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-}
-
-.jumbotron h2 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    color: #fff; 
-}
-
-/* Footer section */
-.footerContainer {
+aside a,
+footer {
     background-color: #eeddcd;
 }
 
-.footerInfo{
-    margin-top: 25px;
-    left: solid;
-    box-shadow: -1px 0px 0px 0px black
+footer {
+    padding-top: 20px;
+    max-height: 100%;
 }
 
-.rightsReserved {
-    margin-top: 5px;
-    padding-left: 60%;
+footer a {
+    color: #5c433f;
 }
 
-.fab{
-    display: block;
-    margin: 15px;
+footer img {
+    height: 90px;
+}
+
+.contact_info {
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.social, 
+.contact_info {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+footer .fine_print {
+    padding-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+@media(max-width: 768px) {
+    .centered {
+        float: none;
+        margin: 0 auto;
+    }
+    nav {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        top: 5px;
+    }
+    .social {
+        margin: 20px 10px 0px;
+    }
+    aside{
+        margin-bottom: 60px;
+    }
 }
