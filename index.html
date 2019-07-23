@@ -1,16 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+	<!-- NavBar -->
+	<div class="container">
+		<header class="row">
+			<div class="col-xs-8 col-sm-4 col-md-6 centered">
+				<img src="img/petstore_logo.png" alt="logo" class="pull-left logo">
+				<h1 class="pull-left text-center">Pet Store</h1>
+			</div>
+			<nav class="col-xs-12 col-sm-7 col-md-6">
+				<ul class="nav nav-pills pull-right headerPills">
+					<li role="presentation" class="active">
+						<a href="#">Home</a>
+					</li>
+					<li role="presentation">
+						<a href="#">Products</a>
+					</li>
+					<li role="presentation">
+						<a href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<!-- End of NavBar -->
+
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center text-uppercase">
+			<h2>The products they love. Prices that you like.</h2>
+		</div>
+	</div>
+	<!-- End of Jumbotron -->
+
+	<!-- Main Section-->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7 text-justify featured">
+				<h2 class="text-uppercase">Featured</h2>
+				<p>Welcome to our amazing 3 item store!</p>
+				<div class="row">
+					<div class="col-sm-4 productGroup">
+						<div class="row">
+							<div class="col-sm-11 col-xs-6 imgBox">
+								<img src="img/product1.jpg" alt="" class="img-responsive productImg">
+								<div class="col-sm-12 col-xs-6 product">
+									<h4>Dog Bowl</h4>
+									<p>Purchase this wonderful looking dog bowl</p>
+									<button class="btn btn-xs center-block">Purchase Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 productGroup">
+						<div class="row">
+							<div class="col-sm-11 col-xs-6 imgBox">
+								<img src="img/product2.jpg" alt="" class="img-responsive productImg">
+								<div class="col-sm-12 col-xs-6">
+									<h4>Cat Toy</h4>
+									<p>Purchase this wonderful looking cat toy</p>
+									<button class="btn btn-xs center-block">Purchase Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 productGroup">
+						<div class="row">
+							<div class="col-sm-11 col-xs-6 imgBox">
+								<img src="img/product3.jpg" alt="" class="img-responsive productImg">
+								<div class="col-sm-12 col-xs-6">
+									<h4>Bird Toy</h4>
+									<p>Purchase this wonderful looking bird toy</p>
+									<button class="btn btn-xs center-block">Purchase Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<aside class="col-sm-3 col-sm-offset-2">
+				<h2 class="text-center text-uppercase">Services</h2>
+				<ul class="nav nav-pills nav-stacked text-center">
+					<li role="presentation">
+						<a href="" class="text-uppercase adoptPill">Adopt a Cat</a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, beatae!</p>
+					</li>
+					<li role="presentation">
+						<a href="" class="text-uppercase adoptPill">Adopt a Dog</a>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, recusandae?</p>
+					</li>
+					<li role="presentation">
+						<a href="" class="text-uppercase adoptPill">Adopt a Fish</a>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, architecto?</p>
+					</li>
+				</ul>
+			</aside>
+		</div>
+	</div>
+	<!-- End of Main Section-->
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="container-fluid footerContainer">
+			<div class="row">
+				<div class="col-sm-4 footerInfo">
+					<img src="img/petstore_logo.png" alt="logo" class="pull-left logo">
+				</div>
+				<div class="col-sm-4 footerInfo">
+					<p>Pet Store</p>
+					<p>Fresno, CA</p>
+					<p>info@petstore.com</p>
+				</div>
+				<div class="col-sm-4 footerInfo">
+					<i class="fab fa-facebook-square"> Facebook</i>
+					<i class="fab fa-twitter-square"> Twitter</i>
+					<i class="fab fa-linkedin"> LinkedIn</i>
+				</div>
+			</div>
+			<p class="rightsReserved">@Pet Store, Inc. All rights reserved.</p>
+		</div>
+	</div>
+	<!-- End of Footer -->
 
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
